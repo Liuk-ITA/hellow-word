@@ -1,0 +1,149 @@
+Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1216
+ho 0 tail 12 room 4
+load:0x40078000,len:9720
+ho 0 tail 12 room 4
+load:0x40080400,len:6352
+entry 0x400806b8
+Connecting Wifi...
+
+WiFi connected
+IP address: 
+192.168.1.129
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+
+{"ok":true,"result":[{"update_id":159747710,
+"message":{"message_id":297,"from":{"id":299514397,"is_bot":false,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","language_code":"it"},"chat":{"id":299514397,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","type":"private"},"date":1587160408,"text":"o"}}]}⸮
+
+incoming message length 335
+Creating DynamicJsonBuffer
+GetUpdates parsed jsonDoc: {"ok":true,"result":[{"update_id":159747710,"message":{"message_id":297,"from":{"id":299514397,"is_bot":false,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","language_code":"it"},"chat":{"id":299514397,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","type":"private"},"date":1587160408,"text":"o"}}]}
+GetUpdates parsed jsonObj: {"ok":true,"result":[{"update_id":159747710,"message":{"message_id":297,"from":{"id":299514397,"is_bot":false,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","language_code":"it"},"chat":{"id":299514397,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","type":"private"},"date":1587160408,"text":"o"}}]}
+got response
+sendPhotoByBinary: SEND Photo
+[BOT Client]Connecting to server
+Content-Length: 37903
+Start request: --------------------------b8f610217e83e29b
+content-disposition: form-data; name="chat_id"
+
+299514397
+--------------------------b8f610217e83e29b
+content-disposition: form-data; name="photo"; filename="img.jpg"
+Content-Type: image/jpeg
+
+Sending photo by binary
+Sending binary photo full buffer
+Sending binary photo full buffer
+Sending binary photo full buffer
+Sending binary photo full buffer
+Sending binary photo full buffer
+Sending binary photo remaining buffer
+End request: 
+--------------------------b8f610217e83e29b--
+
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+
+{"ok":true,"result":[{"update_id":159747711,
+"message":{"message_id":298,"from":{"id":299514397,"is_bot":false,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","language_code":"it"},"chat":{"id":299514397,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","type":"private"},"date":1587162256,"text":"z"}}]}⸮
+
+incoming message length 335
+Creating DynamicJsonBuffer
+GetUpdates parsed jsonDoc: {"ok":true,"result":[{"update_id":159747711,"message":{"message_id":298,"from":{"id":299514397,"is_bot":false,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","language_code":"it"},"chat":{"id":299514397,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","type":"private"},"date":1587162256,"text":"z"}}]}
+GetUpdates parsed jsonObj: {"ok":true,"result":[{"update_id":159747711,"message":{"message_id":298,"from":{"id":299514397,"is_bot":false,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","language_code":"it"},"chat":{"id":299514397,"first_name":"Luca","last_name":"Gobbato","username":"LucaGobb","type":"private"},"date":1587162256,"text":"z"}}]}
+got response
+sendPhotoByBinary: SEND Photo
+[BOT Client]Connecting to server
+Content-Length: 38157
+Start request: --------------------------b8f610217e83e29b
+content-disposition: form-data; name="chat_id"
+
+299514397
+--------------------------b8f610217e83e29b
+content-disposition: form-data; name="photo"; filename="img.jpg"
+Content-Type: image/jpeg
+
+Sending photo by binary
+Sending binary photo full buffer
+Sending binary photo full buffer
+Sending binary photo full buffer
+Sending binary photo remaining buffer
+End request: 
+--------------------------b8f610217e83e29b--
+Closing client
+
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+Received empty string in response!
+Closing client
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+
+{"ok":true,"result":[]}⸮
+
+incoming message length 24
+Creating DynamicJsonBuffer
+
+GetUpdates parsed jsonDoc: {"ok":true,"result":[]}
+GetUpdates parsed jsonObj: {"ok":true,"result":[]}
+no new messages
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+Received empty string in response!
+Closing client
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+Received empty string in response!
+Closing client
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+Received empty string in response!
+Closing client
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+Received empty string in response!
+Closing client
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+
+{"ok":true,"result":[]}
+
+incoming message length 23
+Creating DynamicJsonBuffer
+GetUpdates parsed jsonDoc: {"ok":true,"result":[]}
+GetUpdates parsed jsonObj: {"ok":true,"result":[]}
+no new messages
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+Received empty string in response!
+Closing client
+GET Update Messages
+[BOT]Connecting to server
+.... connected to server
+
+{"ok":true,"result":[]}
+
+incoming message length 23
+Creating DynamicJsonBuffer
+GetUpdates parsed jsonDoc: {"ok":true,"result":[]}
+GetUpdates parsed jsonObj: {"ok":true,"result":[]}
+no new messages
+GET Update Messages
+[BOT]Connecting to server
